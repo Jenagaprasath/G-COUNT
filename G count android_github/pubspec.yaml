@@ -1,0 +1,45 @@
+name: g_count
+description: "A voice-controlled counting app with text-to-speech functionality"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Voice Recognition
+  speech_to_text: ^6.6.0
+
+  # Text-to-Speech
+  flutter_tts: ^4.0.2
+
+  # UI Components (Optional but recommended)
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # App Icon (Uncomment and configure if you have an icon)
+  # assets:
+  #   - assets/images/
+
+  # Fonts (Optional - using default system fonts)
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
